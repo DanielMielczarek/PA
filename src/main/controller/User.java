@@ -7,7 +7,7 @@ import java.util.List;
 
 public class User {
     public String name;
-    private List<MediaItems> rentedItems = new ArrayList<>();
+    public List<MediaItems> rentedItems = new ArrayList<>();
 
     public User(String name) {
         this.name = name;

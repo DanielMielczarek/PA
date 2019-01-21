@@ -9,15 +9,15 @@ public class MediaLibrary {
 
     public List<MediaItems> mediaLibrary = new ArrayList<>();
 
-    public void addItem(MediaItems mediaItems){
+    public void addItem(MediaItems mediaItems) {
         mediaLibrary.add(mediaItems);
     }
 
-    public void removeItem(MediaItems mediaItems){
+    public void removeItem(MediaItems mediaItems) {
         mediaLibrary.remove(mediaItems);
     }
 
-    public void editItem(MediaItems mediaItems){
+    public void editItem(MediaItems mediaItems) {
 
     }
 

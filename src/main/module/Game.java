@@ -5,7 +5,7 @@ import main.module.interfaces.Playable;
 public class Game extends MediaItems implements Playable {
     private int ageRestriction;
 
-    public Game(String name, String author, boolean available,int ageRestriction) {
+    public Game(String name, String author, boolean available, int ageRestriction) {
         super(name, author, available);
         this.ageRestriction = ageRestriction;
     }

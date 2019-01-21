@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64bb5ab2-136d-49de-8091-3521b767a6fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/controller/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/controller/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/MediaItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/MusicAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/interfaces/Listenable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/interfaces/Playable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/interfaces/Readable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/module/interfaces/Watchable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/persistence/MediaLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/main/controller/ManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/main/controller/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/module/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/module/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/module/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/module/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/module/MusicAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/module/MusicAlbum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/persistence/MediaLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/persistence/MediaLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,24 +32,24 @@
         <counts>
           <entry key="JAVA/main" value="1" />
           <entry key="Main" value="1" />
-          <entry key="java" value="19" />
+          <entry key="java" value="25" />
           <entry key="module" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="25" />
           <entry key="UML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="996" />
+          <entry key="java" value="1955" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="996" />
+          <entry key="JAVA" value="1955" />
         </counts>
       </usages-collector>
     </session>
@@ -61,144 +57,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/module/MusicAlbum.java">
+        <entry file="file://$PROJECT_DIR$/src/test/main/controller/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-              <folding>
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/module/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-              <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/module/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-              <folding>
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/module/Film.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding>
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/main.module">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>main.module</OriginalElement>
-              <nodes>
-                <node x="299.99999999999994" y="209.0">main.module.MusicAlbum</node>
-                <node x="271.24999999999994" y="0.0">main.module.MediaItems</node>
-                <node x="640.0" y="198.0">main.module.Film</node>
-                <node x="0.0" y="362.0">main.module.Users</node>
-                <node x="749.25" y="44.5">main.module.interfaces</node>
-                <node x="929.0" y="209.0">main.module.Book</node>
-                <node x="0.0" y="209.0">main.module.Game</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="main.module.Film" target="main.module.interfaces">
-                  <point x="67.25" y="-59.5" />
-                  <point x="18.5" y="14.5" />
-                </edge>
-                <edge source="main.module.MusicAlbum" target="main.module.interfaces">
-                  <point x="80.0" y="-48.5" />
-                  <point x="540.0" y="178.0" />
-                  <point x="804.75" y="178.0" />
-                  <point x="-18.5" y="14.5" />
-                </edge>
-                <edge source="main.module.Book" target="main.module.interfaces">
-                  <point x="69.25" y="-48.5" />
-                  <point x="1136.75" y="138.0" />
-                  <point x="878.75" y="138.0" />
-                  <point x="55.5" y="14.5" />
-                </edge>
-                <edge source="main.module.Film" target="main.module.MediaItems">
-                  <point x="-67.25" y="-59.5" />
-                  <point x="707.25" y="158.0" />
-                  <point x="452.49999999999994" y="158.0" />
-                  <point x="36.25" y="59.0" />
-                </edge>
-                <edge source="main.module.MusicAlbum" target="main.module.MediaItems">
-                  <point x="-80.0" y="-48.5" />
-                  <point x="-36.25" y="59.0" />
-                </edge>
-                <edge source="main.module.Book" target="main.module.MediaItems">
-                  <point x="-69.25" y="-48.5" />
-                  <point x="998.25" y="148.0" />
-                  <point x="525.0" y="148.0" />
-                  <point x="108.75" y="59.0" />
-                </edge>
-                <edge source="main.module.Game" target="main.module.interfaces">
-                  <point x="70.00000000000006" y="-48.5" />
-                  <point x="210.00000000000006" y="168.0" />
-                  <point x="767.75" y="168.0" />
-                  <point x="-55.5" y="14.5" />
-                </edge>
-                <edge source="main.module.Game" target="main.module.MediaItems">
-                  <point x="-69.99999999999994" y="-48.5" />
-                  <point x="70.0" y="158.0" />
-                  <point x="307.49999999999994" y="158.0" />
-                  <point x="-108.75" y="59.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="239.0" />
-              <SelectedNodes>
-                <node>main.module.Users</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Properties</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/controller/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="1170">
+              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -207,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/controller/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="22">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -219,24 +83,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/persistence/MediaLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="138">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/view/View.java">
+        <entry file="file://$PROJECT_DIR$/src/test/main/controller/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="380">
+              <caret line="34" column="66" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/module/MediaItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,6 +125,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -260,17 +138,20 @@
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/controller/persistence/MediaLibrary.java" />
         <option value="$PROJECT_DIR$/src/main/controller/MediaLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/module/MusicAlbum.java" />
-        <option value="$PROJECT_DIR$/src/main/module/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/module/Game.java" />
         <option value="$PROJECT_DIR$/src/main/module/Film.java" />
         <option value="$PROJECT_DIR$/src/main/module/Users/User.java" />
         <option value="$PROJECT_DIR$/src/main/module/Users/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/module/MediaItems.java" />
-        <option value="$PROJECT_DIR$/src/main/persistence/MediaLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/controller/User.java" />
         <option value="$PROJECT_DIR$/src/main/controller/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/module/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/module/MusicAlbum.java" />
+        <option value="$PROJECT_DIR$/src/main/module/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/persistence/MediaLibrary.java" />
         <option value="$PROJECT_DIR$/src/main/view/View.java" />
+        <option value="$PROJECT_DIR$/src/tests/main/controller/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/controller/User.java" />
+        <option value="$PROJECT_DIR$/src/test/main/controller/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/main/controller/ManagerTest.java" />
       </list>
     </option>
   </component>
@@ -286,7 +167,7 @@
     <option name="height" value="805" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -308,23 +189,100 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="module" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548062367843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548068081100" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -338,23 +296,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+  <component name="RunManager" selected="JUnit.ManagerTest.removeIfItemIsNull">
+    <configuration name="ManagerTest.addFewItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="main.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="main.controller" />
+      <option name="MAIN_CLASS_NAME" value="main.controller.ManagerTest" />
+      <option name="METHOD_NAME" value="addFewItem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManagerTest.addItemIfIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.controller" />
+      <option name="MAIN_CLASS_NAME" value="main.controller.ManagerTest" />
+      <option name="METHOD_NAME" value="addItemIfIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.removeFewItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.controller" />
+      <option name="MAIN_CLASS_NAME" value="main.controller.ManagerTest" />
+      <option name="METHOD_NAME" value="removeFewItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.removeIfItemIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.controller" />
+      <option name="MAIN_CLASS_NAME" value="main.controller.ManagerTest" />
+      <option name="METHOD_NAME" value="removeIfItemIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.removeItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.controller" />
+      <option name="MAIN_CLASS_NAME" value="main.controller.ManagerTest" />
+      <option name="METHOD_NAME" value="removeItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ManagerTest.addFewItem" />
+      <item itemvalue="JUnit.ManagerTest.addItemIfIsNull" />
+      <item itemvalue="JUnit.ManagerTest.removeItem" />
+      <item itemvalue="JUnit.ManagerTest.removeFewItem" />
+      <item itemvalue="JUnit.ManagerTest.removeIfItemIsNull" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ManagerTest.removeIfItemIsNull" />
+        <item itemvalue="JUnit.ManagerTest.removeFewItem" />
+        <item itemvalue="JUnit.ManagerTest.removeItem" />
+        <item itemvalue="JUnit.ManagerTest.addItemIfIsNull" />
+        <item itemvalue="JUnit.ManagerTest.addFewItem" />
       </list>
     </recent_temporary>
   </component>
@@ -368,12 +404,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548058975004</updated>
-      <workItem from="1548058976277" duration="4751000" />
+      <workItem from="1548058976277" duration="8907000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ManagerTest_addItemIfIsNull - 2019.01.21 at 11h 40m 06s.xml">
+      <configuration name="ManagerTest.addItemIfIsNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest - 2019.01.21 at 11h 40m 13s.xml">
+      <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_removeItem - 2019.01.21 at 11h 43m 20s.xml">
+      <configuration name="ManagerTest.removeItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_removeFewItem - 2019.01.21 at 11h 45m 50s.xml">
+      <configuration name="ManagerTest.removeFewItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_removeIfItemIsNull - 2019.01.21 at 11h 47m 49s.xml">
+      <configuration name="ManagerTest.removeIfItemIsNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_removeIfItemIsNull - 2019.01.21 at 11h 48m 20s.xml">
+      <configuration name="ManagerTest.removeIfItemIsNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_removeIfItemIsNull - 2019.01.21 at 11h 49m 34s.xml">
+      <configuration name="ManagerTest.removeIfItemIsNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_returnItemIfIsNull - 2019.01.21 at 11h 50m 24s.xml">
+      <configuration name="UserTest.returnItemIfIsNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_returnItemIfIsNull - 2019.01.21 at 11h 50m 57s.xml">
+      <configuration name="UserTest.returnItemIfIsNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_returnItemIfIsNull - 2019.01.21 at 11h 51m 18s.xml">
+      <configuration name="UserTest.returnItemIfIsNull" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4751000" />
+    <option name="totallyTimeSpent" value="8907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
@@ -384,16 +452,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32959327" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959327" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,34 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/module/MediaItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/module/MusicAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/module/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -715,16 +755,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/module/Film.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="266">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="e#337#338#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/main/controller/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/module/Book.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -737,20 +787,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/module/MusicAlbum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/controller/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="251">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
@@ -759,24 +810,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/persistence/MediaLibrary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/controller/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="22">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/persistence/MediaLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="138">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/module/MediaItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/controller/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/controller/ManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="34" column="66" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -837,7 +919,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
