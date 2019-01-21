@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MediaLibrary {
-    public List<MediaItems> mediaLibrary = new ArrayList<>();
+
+    private List<MediaItems> mediaLibrary = new ArrayList<>();
 
     public void addItem(MediaItems mediaItems) {
         mediaLibrary.add(mediaItems);
@@ -20,5 +21,8 @@ public class MediaLibrary {
 
     }
 
+    public List<MediaItems> getMediaLibrary() {
+        return mediaLibrary;
+    }
 
 }

@@ -25,7 +25,7 @@ class ManagerTest {
     void addItem() {
         manager.addItem(book);
 
-        assertEquals(mediaLibrary.mediaLibrary.size(), 1);
+        assertEquals(mediaLibrary.getMediaLibrary().size(), 1);
     }
 
     @Test
@@ -35,7 +35,7 @@ class ManagerTest {
         manager.addItem(book);
         manager.addItem(film);
 
-        assertEquals(mediaLibrary.mediaLibrary.size(), 2);
+        assertEquals(mediaLibrary.getMediaLibrary().size(), 2);
     }
 
     @Test
@@ -44,7 +44,7 @@ class ManagerTest {
 
         manager.addItem(book);
 
-        assertEquals(mediaLibrary.mediaLibrary.size(), 0);
+        assertEquals(mediaLibrary.getMediaLibrary().size(), 0);
 
     }
 
@@ -53,7 +53,7 @@ class ManagerTest {
         manager.addItem(book);
         manager.removeItem(book);
 
-        assertEquals(mediaLibrary.mediaLibrary.size(), 0);
+        assertEquals(mediaLibrary.getMediaLibrary().size(), 0);
     }
 
     @Test
@@ -65,7 +65,7 @@ class ManagerTest {
         manager.removeItem(book);
         manager.removeItem(film);
 
-        assertEquals(mediaLibrary.mediaLibrary.size(), 0);
+        assertEquals(mediaLibrary.getMediaLibrary().size(), 0);
     }
 
     @Test
@@ -78,7 +78,7 @@ class ManagerTest {
 
         manager.removeItem(bookNull);
 
-        assertEquals(mediaLibrary.mediaLibrary.size(), 2);
+        assertEquals(mediaLibrary.getMediaLibrary().size(), 2);
     }
 
 }
