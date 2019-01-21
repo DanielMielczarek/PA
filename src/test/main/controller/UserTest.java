@@ -21,7 +21,7 @@ class UserTest {
     @Test
     void rentItem() {
         user.rentItem(book);
-        assertEquals(user.rentedItems.size(), 1);
+        assertEquals(user.getRentedItems().size(), 1);
         assertEquals(book.isAvailable(), false);
 
 
@@ -31,7 +31,7 @@ class UserTest {
     void rentIfItemIsNull() {
         Book book = null;
         user.rentItem(book);
-        assertEquals(user.rentedItems.size(), 0);
+        assertEquals(user.getRentedItems().size(), 0);
 
     }
 
@@ -41,7 +41,7 @@ class UserTest {
         Film film = new Film("Harry Potter", "Someone", true, 2);
         user.rentItem(film);
         user.rentItem(book);
-        assertEquals(user.rentedItems.size(), 2);
+        assertEquals(user.getRentedItems().size(), 2);
         assertEquals(film.isAvailable(), false);
         assertEquals(book.isAvailable(), false);
     }
@@ -52,7 +52,7 @@ class UserTest {
         user.rentItem(book);
         user.rentItem(film);
         user.returnItem(book);
-        assertEquals(user.rentedItems.size(), 1);
+        assertEquals(user.getRentedItems().size(), 1);
         assertEquals(book.isAvailable(), true);
 
     }
@@ -64,7 +64,7 @@ class UserTest {
         user.rentItem(film);
         user.returnItem(book);
         user.returnItem(film);
-        assertEquals(user.rentedItems.size(), 0);
+        assertEquals(user.getRentedItems().size(), 0);
         assertEquals(book.isAvailable(), true);
         assertEquals(film.isAvailable(), true);
 
@@ -77,7 +77,7 @@ class UserTest {
         Film filmNull = null;
         user.rentItem(film);
         user.returnItem(filmNull);
-        assertEquals(user.rentedItems.size(), 1);
+        assertEquals(user.getRentedItems().size(), 1);
 
 
     }

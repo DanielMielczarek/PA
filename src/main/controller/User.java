@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class User {
-    public String name;
-    public List<MediaItems> rentedItems = new ArrayList<>();
+    private String name;
+    private List<MediaItems> rentedItems = new ArrayList<>();
 
     public User(String name) {
         this.name = name;
@@ -43,5 +43,12 @@ public class User {
         item.setAvailable(true);
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public List<MediaItems> getRentedItems() {
+        return rentedItems;
+    }
 
 }

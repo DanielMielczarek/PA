@@ -11,10 +11,6 @@ public abstract class MediaItems {
         this.available = available;
     }
 
-    public void setAvailable(boolean available) {
-        this.available = available;
-    }
-
     public String getName() {
         return name;
     }
@@ -25,5 +21,9 @@ public abstract class MediaItems {
 
     public boolean isAvailable() {
         return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
 }
