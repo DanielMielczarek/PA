@@ -11,7 +11,6 @@ public abstract class MediaItems {
         this.available = available;
     }
 
-
     public void setAvailable(boolean available) {
         this.available = available;
     }

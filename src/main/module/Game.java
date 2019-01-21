@@ -10,7 +10,6 @@ public class Game extends MediaItems implements Playable {
         this.ageRestriction = ageRestriction;
     }
 
-
     @Override
     public void play() {
 

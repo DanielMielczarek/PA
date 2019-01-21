@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MediaLibrary {
-
     public List<MediaItems> mediaLibrary = new ArrayList<>();
 
     public void addItem(MediaItems mediaItems) {

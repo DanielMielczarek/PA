@@ -17,8 +17,6 @@ public class Manager extends User {
             return;
         }
         mediaLibrary.addItem(item);
-
-        //TODO
     }
 
     public void removeItem(MediaItems item) {
@@ -26,7 +24,6 @@ public class Manager extends User {
             return;
         }
         mediaLibrary.removeItem(item);
-        //TODO
     }
 
     public void editItem(MediaItems item) {

@@ -33,7 +33,6 @@ public class User {
             rentedItems.add(item);
             item.setAvailable(false);
         }
-        //TODO
     }
 
     public void returnItem(MediaItems item) {
@@ -42,7 +41,6 @@ public class User {
         }
         rentedItems.remove(item);
         item.setAvailable(true);
-        //TODO
     }
 
 

@@ -50,7 +50,6 @@ class ManagerTest {
 
     @Test
     void removeItem() {
-
         manager.addItem(book);
         manager.removeItem(book);
 
